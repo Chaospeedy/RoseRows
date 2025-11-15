@@ -6,6 +6,7 @@ using UnityEngine;
 public class RoseSO : ScriptableObject
 {
     public string roseName;
+    public int roseColor;
     public List<Sprite> roseSprites;
 
     public float growthTime;

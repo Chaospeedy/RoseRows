@@ -9,7 +9,7 @@ public class GrowthManager : MonoBehaviour
 
     public static GrowthManager instance;
 
-    [SerializeField] private Rose adjUp, adjDown, adjRight, adjLeft = null;
+    
 
 
 
@@ -50,19 +50,19 @@ public class GrowthManager : MonoBehaviour
     {
         if (rose.adjacency[0])
         {
-            Debug.Log("plot " + rose.plotNumber + " has adjacency Up.");
+            Debug.Log("plot " + rose.plotNumber + " has adjacency Up of color " + rose.adjUp.color);
         }
         if (rose.adjacency[1])
         {
-            Debug.Log("plot " + rose.plotNumber + " has adjacency Down.");
+            Debug.Log("plot " + rose.plotNumber + " has adjacency Down of color " + rose.adjDown.color);
         }
         if (rose.adjacency[2])
         {
-            Debug.Log("plot " + rose.plotNumber + " has adjacency Right.");
+            Debug.Log("plot " + rose.plotNumber + " has adjacency Right of color " + rose.adjRight.color);
         }
         if (rose.adjacency[3])
         {
-            Debug.Log("plot " + rose.plotNumber + " has adjacency Left.");
+            Debug.Log("plot " + rose.plotNumber + " has adjacency Left of color " + rose.adjLeft.color);
         }
     }
 

@@ -4,11 +4,14 @@ using UnityEngine;
 public class Rose : MonoBehaviour
 {
     [SerializeField] private RoseSO rose;
+    [SerializeField] public Rose adjUp, adjDown, adjRight, adjLeft = null;
 
     private SpriteRenderer spriteRenderer;
     public int currentGrowthStage = 0;
     private float currentTime;
     public int plotNumber;
+
+    public int color;
 
     public bool[] adjacency = new bool[4];
 
@@ -17,6 +20,7 @@ public class Rose : MonoBehaviour
         GrowthManager.instance.AddRose(this);
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = rose.roseSprites[0];
+        color = rose.roseColor;
         if (plotNumber + 3 <= 8)//up
         {
             adjacency[0] = true;
