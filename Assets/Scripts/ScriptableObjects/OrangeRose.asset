@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b0d82b60014d0449956c811957056f, type: 3}
+  m_Name: OrangeRose
+  m_EditorClassIdentifier: 
+  roseName: OrangeRose
+  roseSprites:
+  - {fileID: -2719033996680057252, guid: a08e1cb9e1f8182499678364329f7170, type: 3}
+  - {fileID: -3336007768976031738, guid: a08e1cb9e1f8182499678364329f7170, type: 3}
+  - {fileID: 7524028681784656897, guid: a08e1cb9e1f8182499678364329f7170, type: 3}
+  - {fileID: 5608168125956136772, guid: a08e1cb9e1f8182499678364329f7170, type: 3}
+  growthTime: 0
+  seedReturn: 0
+  growthStageMaxmimum: 4
