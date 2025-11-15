@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 public class Rose : MonoBehaviour
@@ -9,13 +10,29 @@ public class Rose : MonoBehaviour
     private float currentTime;
     public int plotNumber;
 
-
+    public bool[] adjacency = new bool[4];
 
     void Start()
     {
         GrowthManager.instance.AddRose(this);
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = rose.roseSprites[0];
+        if (plotNumber + 3 <= 8)//up
+        {
+            adjacency[0] = true;
+        }
+        if (plotNumber - 3 >= 0)//down
+        {
+            adjacency[1] = true;
+        }
+        if (plotNumber + 1 <= 8 && (plotNumber + 1) % 3 != 0)//right
+        {
+            adjacency[2] = true;
+        }
+        if (plotNumber - 1 >= 0 && (plotNumber - 1) % 3 != 2)//left
+        {
+            adjacency[3] = true;
+        }
     }
 
     public void checkGrowth(float deltaTime)
