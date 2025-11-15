@@ -48,7 +48,7 @@ public class Rose : MonoBehaviour
 
             if (currentGrowthStage == rose.growthStageMaxmimum - 1)
             {
-                //GrowthManager.instance.RemoveRose(this);
+                GrowthManager.instance.RemoveRose(this);
             }
         }
     }
