@@ -3,9 +3,13 @@ using UnityEngine;
 public class Rose : MonoBehaviour
 {
     [SerializeField] private RoseSO rose;
+
     private SpriteRenderer spriteRenderer;
     public int currentGrowthStage = 0;
-    public float currentTime;
+    private float currentTime;
+    public int plotNumber;
+
+
 
     void Start()
     {
@@ -17,7 +21,7 @@ public class Rose : MonoBehaviour
     public void checkGrowth(float deltaTime)
     {
         currentTime += deltaTime;
-        if (currentTime >= rose.growthTime)
+        if (currentTime >= rose.growthTime && currentGrowthStage != rose.growthStageMaxmimum)
         {
             currentGrowthStage++;
             currentTime = 0;
@@ -27,10 +31,18 @@ public class Rose : MonoBehaviour
 
             if (currentGrowthStage == rose.growthStageMaxmimum - 1)
             {
-                GrowthManager.instance.RemoveRose(this);
+                //GrowthManager.instance.RemoveRose(this);
             }
         }
-
-        
     }
+
+    void OnMouseDown()
+    {
+        if (currentGrowthStage == rose.growthStageMaxmimum - 1)
+        {
+            GrowthManager.instance.HarvestRose(this);
+        }
+    }
+
+
 }

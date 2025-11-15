@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 8f006438a4cee8c41af6cbf380f4c9fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6292232593453697359
+    second: RoseSpriteSheet2_0
+  - first:
+      213: -1050873279709324646
+    second: RoseSpriteSheet2_1
+  - first:
+      213: -1130352884862971760
+    second: RoseSpriteSheet2_2
+  - first:
+      213: -4929290597105677258
+    second: RoseSpriteSheet2_3
+  - first:
+      213: -5211493692781730155
+    second: RoseSpriteSheet2_4
+  - first:
+      213: -2253651636325441299
+    second: RoseSpriteSheet2_5
+  - first:
+      213: 4193493220397254962
+    second: RoseSpriteSheet2_6
+  - first:
+      213: 5986383194790853452
+    second: RoseSpriteSheet2_7
+  - first:
+      213: 5249025848606054406
+    second: RoseSpriteSheet2_8
+  - first:
+      213: 2716912264419659308
+    second: RoseSpriteSheet2_9
+  - first:
+      213: 5897427556649781487
+    second: RoseSpriteSheet2_10
+  - first:
+      213: -4536354330857039550
+    second: RoseSpriteSheet2_11
+  - first:
+      213: -4978540577313672877
+    second: RoseSpriteSheet2_12
+  - first:
+      213: 5932062716700322265
+    second: RoseSpriteSheet2_13
+  - first:
+      213: 1266499789660072927
+    second: RoseSpriteSheet2_14
+  - first:
+      213: -6948394290538340411
+    second: RoseSpriteSheet2_15
+  - first:
+      213: -3339690486007853284
+    second: RoseSpriteSheet2_16
+  - first:
+      213: -6530116649125950390
+    second: RoseSpriteSheet2_17
+  - first:
+      213: 2363796306149095967
+    second: RoseSpriteSheet2_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 225
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4941f0c430825750800000000000000
+      internalID: 6292232593453697359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 225
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ad9f2e15c8a61f0800000000000000
+      internalID: -1050873279709324646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 225
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09097e24a0e2050f0800000000000000
+      internalID: -1130352884862971760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 225
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cc7d48154a79bb0800000000000000
+      internalID: -4929290597105677258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_4
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 217
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5966e8c191e0da7b0800000000000000
+      internalID: -5211493692781730155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 187
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de02851f6cb69b0e0800000000000000
+      internalID: -2253651636325441299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 187
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23989c9add7423a30800000000000000
+      internalID: 4193493220397254962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 187
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b70e66cc7e31350800000000000000
+      internalID: 5986383194790853452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 187
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608d103e23948d840800000000000000
+      internalID: 5249025848606054406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 149
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ec2a64f4964b520800000000000000
+      internalID: 2716912264419659308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 149
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8c5baed1fd7d150800000000000000
+      internalID: 5897427556649781487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 149
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24916fd45c1ab01c0800000000000000
+      internalID: -4536354330857039550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_12
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 149
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351b95de8bba8eab0800000000000000
+      internalID: -4978540577313672877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9e2468c9be25250800000000000000
+      internalID: 5932062716700322265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_14
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 109
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbabc639d2839110800000000000000
+      internalID: 1266499789660072927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 109
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf1c19f438529f90800000000000000
+      internalID: -6948394290538340411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 109
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f00c9823907a1d0800000000000000
+      internalID: -3339690486007853284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ccbf2718d5065a0800000000000000
+      internalID: -6530116649125950390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoseSpriteSheet2_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 73
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ab56d6734edc020800000000000000
+      internalID: 2363796306149095967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RoseSpriteSheet2_0: 6292232593453697359
+      RoseSpriteSheet2_1: -1050873279709324646
+      RoseSpriteSheet2_10: 5897427556649781487
+      RoseSpriteSheet2_11: -4536354330857039550
+      RoseSpriteSheet2_12: -4978540577313672877
+      RoseSpriteSheet2_13: 5932062716700322265
+      RoseSpriteSheet2_14: 1266499789660072927
+      RoseSpriteSheet2_15: -6948394290538340411
+      RoseSpriteSheet2_16: -3339690486007853284
+      RoseSpriteSheet2_17: -6530116649125950390
+      RoseSpriteSheet2_18: 2363796306149095967
+      RoseSpriteSheet2_2: -1130352884862971760
+      RoseSpriteSheet2_3: -4929290597105677258
+      RoseSpriteSheet2_4: -5211493692781730155
+      RoseSpriteSheet2_5: -2253651636325441299
+      RoseSpriteSheet2_6: 4193493220397254962
+      RoseSpriteSheet2_7: 5986383194790853452
+      RoseSpriteSheet2_8: 5249025848606054406
+      RoseSpriteSheet2_9: 2716912264419659308
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

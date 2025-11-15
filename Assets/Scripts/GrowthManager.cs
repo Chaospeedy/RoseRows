@@ -5,7 +5,9 @@ using UnityEngine.Rendering;
 public class GrowthManager : MonoBehaviour
 {
     private List<Rose> roses = new List<Rose>();
+
     public static GrowthManager instance;
+
 
     private void Awake()
     {
@@ -32,7 +34,11 @@ public class GrowthManager : MonoBehaviour
     {
         roses.Remove(rose);
     }
-    
 
+    public int HarvestRose(Rose rose)
+    {
+        Debug.Log("plot number: " + rose.plotNumber);
+        return 1;
+    }
 
 }
