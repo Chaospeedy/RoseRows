@@ -16,6 +16,7 @@ public class CollectionPage : MonoBehaviour
             CollectionEntry entry = Instantiate(collectionRose, Vector2.zero, Quaternion.identity);
             entry.transform.SetParent(contentPanel);
             listOfEntries.Add(entry);
+
         }
     }
 
@@ -28,4 +29,6 @@ public class CollectionPage : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+
+
 }

@@ -4,7 +4,7 @@ public class CollectionController : MonoBehaviour
 {
     [SerializeField] private CollectionPage collection;
 
-    public int collectionSize = 10;
+    public int collectionSize = 3;
     void Start()
     {
         collection.InitializeCollection(collectionSize);

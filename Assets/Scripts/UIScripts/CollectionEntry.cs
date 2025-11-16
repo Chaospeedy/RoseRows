@@ -1,16 +1,30 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class CollectionEntry : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private Image entryImage;
+    public RoseSO roseSO;
+
+    //private bool empty = true;
+
+    void Awake()
     {
-        
+        //ResetData();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ResetData()
     {
-        
+        this.entryImage.gameObject.SetActive(false);
     }
+    public void CreateEntry(Sprite sprite)
+    {
+        this.entryImage.gameObject.SetActive(true);
+        this.entryImage.sprite = sprite;
+        //empty = false;
+    }
+
 }
