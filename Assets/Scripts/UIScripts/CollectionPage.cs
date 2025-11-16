@@ -1,16 +1,31 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class CollectionPage : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private CollectionEntry collectionRose;
+
+    [SerializeField] private RectTransform contentPanel;
+
+    List<CollectionEntry> listOfEntries = new List<CollectionEntry>();
+
+    public void InitializeCollection(int collectionSize)
     {
-        
+        for (int i = 0; i < collectionSize; i++)
+        {
+            CollectionEntry entry = Instantiate(collectionRose, Vector2.zero, Quaternion.identity);
+            entry.transform.SetParent(contentPanel);
+            listOfEntries.Add(entry);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OpenCollection()
     {
-        
+        gameObject.SetActive(true);
+    }
+
+    public void CloseCollection()
+    {
+        gameObject.SetActive(false);
     }
 }
